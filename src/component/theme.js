@@ -81,8 +81,8 @@ according to the package subscribed
             </Container>
             <p></p>
             </div>
-            <Container fluid className="bggrey">
-                <div className="marge">
+            <Container fluid className="shadow bg-white rounded">
+                <div className="marge ">
                 
                 <div class="d-flex justify-content-center">
                 <h2 className="center margett">OUR RESTAURANTS</h2>
@@ -92,20 +92,39 @@ according to the package subscribed
                
                     
                     <Row>
-                        <Col xs={3}>
-                        <Image src={imgt} width="300" height="500" thumbnail/>
+                        <Col lg={3}>
+                        <Image src={imgt} width="300" height="450" thumbnail/>
+                        <spam>Mama Eva Restaurant</spam>
+                        <br/>
+                        Nyamalango<br/>
+                        <Button variant="outline-dark">BOOK NOW</Button>
                         </Col>
-                        <Col xs={3}>
-                        <Image src={imgt} width="300" height="500" thumbnail/>
+                        <Col lg={3}>
+                        <Image src={imgt} width="300" height="450" thumbnail/>
+                        <spam>Mama Eva Restaurant</spam>
+                        <br/>
+                        Nyamalango<br/>
+                        <Button variant="outline-dark">BOOK NOW</Button>
                         </Col>
-                        <Col xs={3}>
-                        <Image src={imgt} width="300" height="500" thumbnail/>
+                        <Col lg={3}>
+                        <Image src={imgt} width="300" height="450" thumbnail/>
+                        <spam>Mama Eva Restaurant</spam>
+                        <br/>
+                        Nyamalango<br/>
+                        <Button variant="outline-dark">BOOK NOW</Button>
                         </Col>
-                        <Col xs={3}>
-                        <Image src={imgt} width="300" height="500" thumbnail/>
+                        <Col lg={3}>
+                        <Image src={imgt} width="300" height="450" thumbnail/>
+                        <spam>Mama Eva Restaurant</spam>
+                        <br/>
+                        Nyamalango<br/>
+                        <Button variant="outline-dark">BOOK NOW</Button>
                         </Col>
                     </Row>
                     
+                    <div class="d-flex justify-content-center margett margelast">
+                        <Button variant="danger">SEE MORE</Button>
+                    </div>
 
                 </div>
 
