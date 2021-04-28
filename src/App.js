@@ -3,7 +3,7 @@ import './App.css';
 import Theme from "./component/theme";
 function App() {
   return (
-    <div >
+    <div class="margex">
       <Theme/>
     </div>
     

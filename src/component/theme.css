@@ -16,7 +16,7 @@
 .ptxt{
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+    
     font-weight: bold;
 }
 .white{
@@ -26,6 +26,14 @@
     margin-left: 5rem;
     margin-right: 5rem;
 }
+.margehd{
+    margin-left: 3rem;
+    height: 650px;
+}
 .bggrey{
     background-color: whitesmoke;
+}
+.margett{
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
 }

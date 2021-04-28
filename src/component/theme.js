@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import { Button, Container, Row, Col, Card, Image, Nav } from 'react-bootstrap';
 import './theme.css';
 import bgimg from '../img/mainimg.jpg';
+import imgt from '../img/eating.jfif';
 
 
 export default class Theme extends Component{
@@ -14,10 +15,11 @@ export default class Theme extends Component{
     {
         return(
             <>
-            <div className="marge">
+            <div className="shadow bg-white rounded">
             <Container fluid>
                <Row>
                    <Col lg={4}>
+                       <div className="margehd">
                    <p></p>
                        <p>
                            <h1>LOGO</h1>
@@ -37,6 +39,7 @@ according to the package subscribed
                        </p>
                        <Button href="#" variant="danger" size="lg">Contact us</Button>
 
+                   </div>
                    </div>
                    </Col>
                    <Col lg={8}>
@@ -76,9 +79,33 @@ according to the package subscribed
   
 
             </Container>
+            <p></p>
             </div>
             <Container fluid className="bggrey">
                 <div className="marge">
+                
+                <div class="d-flex justify-content-center">
+                <h2 className="center margett">OUR RESTAURANTS</h2>
+                </div>
+               
+  
+               
+                    
+                    <Row>
+                        <Col xs={3}>
+                        <Image src={imgt} width="300" height="500" thumbnail/>
+                        </Col>
+                        <Col xs={3}>
+                        <Image src={imgt} width="300" height="500" thumbnail/>
+                        </Col>
+                        <Col xs={3}>
+                        <Image src={imgt} width="300" height="500" thumbnail/>
+                        </Col>
+                        <Col xs={3}>
+                        <Image src={imgt} width="300" height="500" thumbnail/>
+                        </Col>
+                    </Row>
+                    
 
                 </div>
 
