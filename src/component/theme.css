@@ -40,3 +40,19 @@
 .margelast{
     padding-bottom: 40px;
 }
+.bgdark{
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url("../img/imgdiv.jpg");
+
+}
+.margetb{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+}
