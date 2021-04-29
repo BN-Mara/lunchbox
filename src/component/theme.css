@@ -56,3 +56,45 @@
     padding-bottom: 5rem;
 
 }
+
+.titletxt{
+    font-size: 2rem;
+    font-weight: 2px;
+}
+.titletxt2{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.hrtitle{
+    height:2px;
+    background-color: rgb(255, 255, 0);
+    
+}
+
+.hrsepare{
+    height: 0.5px;
+    background-color: wheat;
+}
+
+.basiclist{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.allright{
+    font-size: 1.5rem;
+}
+.ftpadding{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.pdtb-5{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.teamtxt{
+    font-size: 1rem;
+    font-weight: bold;
+}

@@ -4,6 +4,10 @@ import './theme.css';
 import bgimg from '../img/mainimg.jpg';
 import imgt from '../img/eating.jfif';
 import bgdiv from '../img/imgdiv.jpg';
+import Footer from "./footer";
+import Pricing from "./pricing";
+import Restaurant from "./restaurants";
+import Team from "./team";
 
 
 export default class Theme extends Component{
@@ -83,189 +87,10 @@ according to the package subscribed
             </Container>
             <p></p>
             </div>
-            <Container fluid className="shadow bg-white rounded">
-                <div className="marge ">
-                
-                <div class="d-flex justify-content-center">
-                <h2 className="center margett">OUR RESTAURANTS</h2>
-                </div>
-                                                
-                    <Row>
-                        <Col lg={3}>
-                        <Image src={imgt} width="300" height="500" thumbnail/>
-                        <spam>Mama Eva Restaurant</spam>
-                        <br/>
-                        Nyamalango<br/>
-                        <Button variant="outline-dark">BOOK NOW</Button>
-                        </Col>
-                        <Col lg={3}>
-                        <Image src={imgt} width="300" height="450" thumbnail/>
-                        <spam>Mama Eva Restaurant</spam>
-                        <br/>
-                        Nyamalango<br/>
-                        <Button variant="outline-dark">BOOK NOW</Button>
-                        </Col>
-                        <Col lg={3}>
-                        <Image src={imgt} width="300" height="450" thumbnail/>
-                        <spam>Mama Eva Restaurant</spam>
-                        <br/>
-                        Nyamalango<br/>
-                        <Button variant="outline-dark">BOOK NOW</Button>
-                        </Col>
-                        <Col lg={3}>
-                        <Image src={imgt} width="300" height="450" thumbnail/>
-                        <spam>Mama Eva Restaurant</spam>
-                        <br/>
-                        Nyamalango<br/>
-                        <Button variant="outline-dark">BOOK NOW</Button>
-                        </Col>
-                    </Row>
-                    
-                    <div class="d-flex justify-content-center margett margelast">
-                        <Button variant="danger">SEE MORE</Button>
-                    </div>
-
-                </div>
-
-                </Container>
-                <div className="bgdark">
-
-                    <div className="marge margetb">
-                    <div class="d-flex justify-content-center">
-                        <p>
-                        <h2 className="center">OUR PRICING</h2>
-                        </p>
-                        <p style={{textAlign:"center"}}><b>Pick from 7 different packages</b><br/>
-                        Straight forward services, transparent pricing.<br/>
-                        No hidden cost .No extra fees</p>
-                    </div>
-                        <Row >
-                            <Col lg>
-                        <Card >
-                        <Card.Header>
-                        <Card.Title>Basic</Card.Title>
-
-                        </Card.Header>
-                            <Card.Body>
-                            
-                        <Card.Text>
-                             <h2>Twice per day</h2>
-                             <p>
-                                 Breakfast or lunch
-                             </p>
-                             <p>
-                                 Lunch or dinner
-                             </p>
-                             <h1>
-                                 Tsh 2500
-                                 </h1>
-                    </Card.Text>
-                    <Button variant="danger" size="sm">Book Now</Button>
-                    </Card.Body>
-                    </Card>
-
-                            </Col>
-                            <Col lg>
-                            <Card >
-                        <Card.Header>
-                        <Card.Title>Basic</Card.Title>
-
-                        </Card.Header>
-                            <Card.Body>
-                            
-                        <Card.Text>
-                             <h2>Twice per day</h2>
-                             <p>
-                                 Breakfast or lunch
-                             </p>
-                             <p>
-                                 Lunch or dinner
-                             </p>
-                             <h1>
-                                 Tsh 2500
-                                 </h1>
-                    </Card.Text>
-                    <Button variant="danger" size="sm">Book Now</Button>
-                    </Card.Body>
-                    </Card>
-                            </Col>
-                            
-                            <Col lg>
-                            <Card >
-                        <Card.Header>
-                        <Card.Title>Basic</Card.Title>
-
-                        </Card.Header>
-                            <Card.Body>
-                            
-                        <Card.Text>
-                             <h2>Twice per day</h2>
-                             <p>
-                                 Breakfast or lunch
-                             </p>
-                             <p>
-                                 Lunch or dinner
-                             </p>
-                             <h1>
-                                 Tsh 2500
-                                 </h1>
-                    </Card.Text>
-                    <Button variant="danger" size="sm">Book Now</Button>
-                    </Card.Body>
-                    </Card>
-                            </Col>
-                            <Col lg>
-                            <Card >
-                        <Card.Header>
-                        <Card.Title>Basic</Card.Title>
-
-                        </Card.Header>
-                            <Card.Body>
-                            
-                        <Card.Text>
-                             <h2>Twice per day</h2>
-                             <p>
-                                 Breakfast or lunch
-                             </p>
-                             <p>
-                                 Lunch or dinner
-                             </p>
-                             <h1>
-                                 Tsh 2500
-                                 </h1>
-                    </Card.Text>
-                    <Button variant="danger" size="sm">Book Now</Button>
-                    </Card.Body>
-                    </Card>
-                            </Col>
-                            <Col lg>
-                            <Card >
-                        <Card.Header>
-                        <Card.Title>Basic</Card.Title>
-
-                        </Card.Header>
-                            <Card.Body>
-                            
-                        <Card.Text>
-                             <h2>Twice per day</h2>
-                             <p>
-                                 Breakfast or lunch
-                             </p>
-                             <p>
-                                 Lunch or dinner
-                             </p>
-                             <h1>
-                                 Tsh 2500
-                                 </h1>
-                    </Card.Text>
-                    <Button variant="danger" size="sm">Book Now</Button>
-                    </Card.Body>
-                    </Card>
-                            </Col>
-                        </Row>
-                    </div>
-
-                </div>
+            <Restaurant/>
+                <Pricing/>
+               <Team/>
+                <Footer/>
             </>
 
         );
