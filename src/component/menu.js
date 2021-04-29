@@ -15,7 +15,7 @@ export default class Menu extends Component{
             <div className="bg-white fluid shadow rounded">
             <div className="marge pdtb-5 ">
             <p style={{textAlign:"center"}}>
-                <h2 className="dark">OUR PRICING</h2>
+                <h2 className="dark margebt2"><b>Menu</b></h2>
                 </p>
                 <Row>
                     <Col lg>
