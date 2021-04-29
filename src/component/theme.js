@@ -8,6 +8,7 @@ import Footer from "./footer";
 import Pricing from "./pricing";
 import Restaurant from "./restaurants";
 import Team from "./team";
+import Aboutus from "./aboutus";
 
 
 export default class Theme extends Component{
@@ -89,6 +90,7 @@ according to the package subscribed
             </div>
             <Restaurant/>
                 <Pricing/>
+                <Aboutus/>
                <Team/>
                 <Footer/>
             </>

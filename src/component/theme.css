@@ -98,3 +98,16 @@
     font-size: 1rem;
     font-weight: bold;
 }
+
+.abouttxt{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.roundel{
+    border-radius: 5%;
+}
+.roundel10{
+    border-radius: 10%;
+}
