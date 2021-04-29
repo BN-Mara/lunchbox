@@ -9,6 +9,7 @@ import Pricing from "./pricing";
 import Restaurant from "./restaurants";
 import Team from "./team";
 import Aboutus from "./aboutus";
+import Menu from "./menu";
 
 
 export default class Theme extends Component{
@@ -89,6 +90,7 @@ according to the package subscribed
             <p></p>
             </div>
             <Restaurant/>
+            <Menu/>
                 <Pricing/>
                 <Aboutus/>
                <Team/>
